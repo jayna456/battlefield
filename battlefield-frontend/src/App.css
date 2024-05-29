@@ -1,0 +1,111 @@
+body {
+  min-height: 100%;
+  background-image: url('../src/assets/blur-boat.png');
+  background-position: 0 0, -70vh -20vh;
+  background-size: auto, 340vh;
+  padding-top: 3vh;
+  padding-bottom: 0;
+  padding-left: 12vh;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.content {
+  align-items: flex-start;
+  width: 127vh;
+  height: 82.4vh;
+  border-bottom: 1px rgba(255, 255, 255, .1);
+  margin-top: 8vh;
+}
+
+.sidebar {
+  margin-right: 4vh;
+  padding-right: 1vh;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.list {
+  width: 35vh;
+  height: 4.8vh;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  align-items: center;
+  padding-left: 1.7vh;
+  display: flex;
+  margin-right: 15px;
+}
+
+.single-content {
+  width: 67vh;
+  height: 80vh;
+}
+
+.background-none {
+  background-color: none !important;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content-heading {
+  color: #fff;
+  letter-spacing: .05vh;
+  text-transform: uppercase;
+  margin-top: 2vh;
+  font-family: Rajdhani, sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 3vh;
+}
+
+.content-desc {
+  color: #fff;
+  letter-spacing: .05vh;
+  text-transform: none;
+  font-family: Rajdhani, sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 2.8vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
