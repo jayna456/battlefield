@@ -285,7 +285,7 @@ const battleList = [
     },
 ];
 
-app.get('/', (req,res) => {
+app.get('/getList', (req,res) => {
     res.json({ code: 200, data: battleList });
 })
 app.listen(PORT, () => console.log("Your backend application is running on port",PORT));

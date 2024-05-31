@@ -2,9 +2,13 @@
   "name": "battlefield-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://jayna456.github.io/battlefield",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",

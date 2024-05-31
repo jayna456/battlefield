@@ -27,7 +27,7 @@ function App() {
   }, [list])
   
   const fetchList = async () => {
-    const response = await axios.get('http://localhost:8000/');
+    const response = await axios.get('https://jayna456.github.io/battlefield:8000/getList');
   
     if (response.status === 200) {
       return response.data.data;
