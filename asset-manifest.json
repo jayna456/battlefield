@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a0e3b1a.css",
-    "main.js": "/static/js/main.5a795257.js",
-    "static/js/453.3b596ecc.chunk.js": "/static/js/453.3b596ecc.chunk.js",
-    "static/media/blur-boat.png": "/static/media/blur-boat.ded46b6a46197539bd98.png",
-    "index.html": "/index.html",
-    "main.9a0e3b1a.css.map": "/static/css/main.9a0e3b1a.css.map",
-    "main.5a795257.js.map": "/static/js/main.5a795257.js.map",
-    "453.3b596ecc.chunk.js.map": "/static/js/453.3b596ecc.chunk.js.map"
+    "main.css": "/battlefield/static/css/main.4876c676.css",
+    "main.js": "/battlefield/static/js/main.4d3efcba.js",
+    "static/js/453.3b596ecc.chunk.js": "/battlefield/static/js/453.3b596ecc.chunk.js",
+    "static/media/blur-boat.png": "/battlefield/static/media/blur-boat.ded46b6a46197539bd98.png",
+    "index.html": "/battlefield/index.html",
+    "main.4876c676.css.map": "/battlefield/static/css/main.4876c676.css.map",
+    "main.4d3efcba.js.map": "/battlefield/static/js/main.4d3efcba.js.map",
+    "453.3b596ecc.chunk.js.map": "/battlefield/static/js/453.3b596ecc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0e3b1a.css",
-    "static/js/main.5a795257.js"
+    "static/css/main.4876c676.css",
+    "static/js/main.4d3efcba.js"
   ]
 }
